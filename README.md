@@ -1,6 +1,8 @@
 # dashcam-parkmode
 
-Targets an ESP32 feather with an optoisolator hooked to car acc power on pin 33 and a power output on pin 32.
+Targets an ESP32 feather with an optoisolator hooked to car acc power on pin 33 and a power output on pin 32.  Config jumper is on pin 27, short to ground to enable config.
+
+Compile with PlatformIO, requires ESP32 IDF 1.0.9 for the Captive Portal to correctly work, newer versions crash.
 
 Basically piggybacks on top of a b-124x.
 
