@@ -20,6 +20,7 @@ Dependency Graph
 EpromTags config;
 
 void setup() {
+  esp_sleep_disable_wakeup_source(ESP_SLEEP_WAKEUP_ALL);
   Serial.begin(115200);
 
   conf_get(&config);
