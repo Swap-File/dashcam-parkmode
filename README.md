@@ -13,5 +13,3 @@ Make sure to cut ground wire and data lines on the USB cable powering the ESP32,
 b-124x compatible cables can be found here: https://www.digikey.com/products/en?keywords=WM12449-ND
 
 A standard 817 opto and bts 117 low side switch works well. 
-
-Make sure to turn off "Override Parking Mode Timeout Function" in the Blackvue battery manager, or you will see blips every 2 hours.
